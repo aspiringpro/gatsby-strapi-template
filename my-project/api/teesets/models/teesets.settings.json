@@ -1,0 +1,47 @@
+{
+  "kind": "collectionType",
+  "collectionName": "teesets",
+  "info": {
+    "name": "teesets"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "color": {
+      "type": "enumeration",
+      "enum": [
+        "black",
+        "blue",
+        "white",
+        "green",
+        "gold",
+        "red",
+        "orange"
+      ]
+    },
+    "totalyards": {
+      "type": "integer"
+    },
+    "slope": {
+      "type": "float"
+    },
+    "rating": {
+      "type": "float"
+    },
+    "difficulty": {
+      "type": "integer"
+    },
+    "course": {
+      "via": "teesets",
+      "model": "courses"
+    },
+    "holes": {
+      "via": "teesets",
+      "collection": "hole"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "courses",
+  "info": {
+    "name": "courses",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "address": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "zip": {
+      "type": "string"
+    },
+    "state": {
+      "type": "enumeration",
+      "enum": [
+        "alaska",
+        "california"
+      ]
+    },
+    "name": {
+      "type": "string"
+    },
+    "holes": {
+      "type": "integer"
+    },
+    "teesets": {
+      "via": "course",
+      "collection": "teesets"
+    }
+  }
+}
