@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/courses",
-      "handler": "courses.find",
+      "path": "/golf-courses",
+      "handler": "golf-course.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/courses/count",
-      "handler": "courses.count",
+      "path": "/golf-courses/count",
+      "handler": "golf-course.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/courses/:id",
-      "handler": "courses.findOne",
+      "path": "/golf-courses/:id",
+      "handler": "golf-course.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/courses",
-      "handler": "courses.create",
+      "path": "/golf-courses",
+      "handler": "golf-course.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/courses/:id",
-      "handler": "courses.update",
+      "path": "/golf-courses/:id",
+      "handler": "golf-course.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/courses/:id",
-      "handler": "courses.delete",
+      "path": "/golf-courses/:id",
+      "handler": "golf-course.delete",
       "config": {
         "policies": []
       }

@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "golf_courses",
+  "info": {
+    "name": "golf course",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "uid": {
+      "type": "uid",
+      "targetField": "name"
+    }
+  }
+}

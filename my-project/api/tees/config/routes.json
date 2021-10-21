@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/holes",
-      "handler": "hole.find",
+      "path": "/tees",
+      "handler": "tees.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/holes/count",
-      "handler": "hole.count",
+      "path": "/tees/count",
+      "handler": "tees.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/holes/:id",
-      "handler": "hole.findOne",
+      "path": "/tees/:id",
+      "handler": "tees.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/holes",
-      "handler": "hole.create",
+      "path": "/tees",
+      "handler": "tees.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/holes/:id",
-      "handler": "hole.update",
+      "path": "/tees/:id",
+      "handler": "tees.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/holes/:id",
-      "handler": "hole.delete",
+      "path": "/tees/:id",
+      "handler": "tees.delete",
       "config": {
         "policies": []
       }

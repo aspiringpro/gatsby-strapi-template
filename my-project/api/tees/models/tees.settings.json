@@ -1,0 +1,103 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tees",
+  "info": {
+    "name": "tees",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "color": {
+      "type": "string"
+    },
+    "yardage1": {
+      "type": "string"
+    },
+    "yardage2": {
+      "type": "string"
+    },
+    "yardage3": {
+      "type": "string"
+    },
+    "yardage4": {
+      "type": "string"
+    },
+    "yardage5": {
+      "type": "string"
+    },
+    "yardage6": {
+      "type": "string"
+    },
+    "yardage7": {
+      "type": "string"
+    },
+    "yardage8": {
+      "type": "string"
+    },
+    "yardage9": {
+      "type": "string"
+    },
+    "yardage10": {
+      "type": "string"
+    },
+    "yardage11": {
+      "type": "string"
+    },
+    "yardage12": {
+      "type": "string"
+    },
+    "yardage13": {
+      "type": "string"
+    },
+    "yardage14": {
+      "type": "string"
+    },
+    "yardage15": {
+      "type": "string"
+    },
+    "yardage16": {
+      "type": "string"
+    },
+    "yardage17": {
+      "type": "string"
+    },
+    "yardage18": {
+      "type": "string"
+    },
+    "total_yardage": {
+      "type": "string"
+    },
+    "in_yardage": {
+      "type": "string"
+    },
+    "out_yardage": {
+      "type": "string"
+    },
+    "handicap": {
+      "type": "integer"
+    },
+    "par1": {
+      "type": "integer"
+    },
+    "par2": {
+      "type": "integer"
+    },
+    "par3": {
+      "type": "integer"
+    },
+    "par4": {
+      "type": "integer"
+    },
+    "par5": {
+      "type": "integer"
+    }
+  }
+}
